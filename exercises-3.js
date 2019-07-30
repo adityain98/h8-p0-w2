@@ -1,7 +1,10 @@
-var nama='Indra';
+var nama = 'Indra';
 var peran= 'Ksatria';
 
 if (nama == ''){
+    console.log('Nama harus diisi!');
+}
+else if(nama == null){
     console.log('Nama harus diisi!');
 }
 else{
