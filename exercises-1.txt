@@ -1,0 +1,85 @@
+1. Newton Second Law
+Algoritma:
+    1. Simpan m dengan nilai tertentu
+    2. Simpan a dengan nilai tertentu
+    3. Simpan ΣF dengan nilai m kali any
+    4. Tampilkan ΣF
+
+Pseudocode:
+STORE "m" with any value
+STORE "a" with any value
+STORE "ΣF" with "m" times "a"
+
+DISPLAY "ΣF"
+
+2. Tahun Kabisat
+Algoritma:
+    1.  Simpan tahun dengan nilai tertentu
+    2.  Jika tahun habis dibagi 4, lakukan
+    3.      Jika tahun habis dibagi 100, lakukan
+    4.          Jika tahun habis dibagi 400, lakukan
+    5.              Tampilkan "Tahun Kabisat"
+    6.          Lainnya 
+    7.              Tampilkan "Bukan Tahun Kabisat"
+    8.      Lainnya
+    9.          Tampilkan "Tahun Kabisat"
+    10  Lainnya 
+    11.     Tampilkan "Bukan Tahun Kabisat"
+
+Pseudocode:
+STORE "tahun" with anny value
+IF "tahun" % "4" = "0"
+    IF "tahun" % "100" = "0"
+        IF "tahun" % "400" = "0"
+            DISPLAY "Tahun Kabisat"
+        ELSE
+            DISPLAY "Bukan Tahun Kabisat"
+    ELSE
+        DISPLAY "Tahun Kabisat"
+ELSE
+    DISPLAY "Bukan Tahun Kabisat"
+
+3. Laundry Day
+Algoritma:
+    1.  Simpan pakaian dengan nilai 20
+    2.  Simpan mesin dengan nilai 0
+    3.  Jika mesin kurang dari pakaian
+    4.      mesin ditambah 1
+    5.      kembali ke line 3
+    6.  Lainnya jika mesin samadengan pakaian
+    7.      hidupkan mesin cuci
+    8.  Hidupkan mesin cuci
+
+Pseudocode:
+STORE "pakaian" with value "20"
+STORE "mesin" with value "0"
+IF "mesin" < "pakaian"
+    ADD "mesin" with "1"
+    BACK TO Line 3
+ELSE   
+    DO "hidupkan mesin cuci"
+DO "hidupkan mesin cuci"
+
+4. Periksa Kuku
+Algoritma:
+    1.  Simpan array siswa dengan 1 hingga 40 dengan nilai 1 atau 0
+    2.  Simpan kukupanjang dengan nilai 1
+    3.  Simpan i dengan nilai 1
+    4.  Jika panjang siswa i mempunyai nilai samadengan kukupanjang
+    5.      Tampilkan "Dihukum"
+    6.      i tambah 1
+    7.  Lainnya jika panjang siswa i mempunyai nilai tidak samadengan kukupanjang
+    8.      Tampilkan "Dipuji"
+    9.      i tambah 1
+
+Pseudocode:
+STORE ARRAY "siswa" from "1" to "40" with value 1 or 0
+STORE "kukupanjang" with value "1"
+STORE "i" with value "1"
+
+IF "siswa length i" = "kukupanjang"
+    DISPLAY "Dihukum"
+    ADD "i" with "1"
+ELSE IF "siswa length i" != "kukupanjang"
+    DISPLAY "Dipuji"
+    ADD "i" with "1"
