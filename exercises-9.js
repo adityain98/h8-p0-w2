@@ -22,7 +22,7 @@ console.log(hasilPerkalian);
 //Tugas 3
 
 function processSentence(e,f,g,h){
-    kata = e +' ' + f +' ' + g +' ' + h;
+    kata ='Nama saya '+ e +', umur saya ' + f +' tahun, alamat saya di ' + g +', dan saya punya hobby yaitu ' + h +'!';
     return kata;
 }
 
@@ -32,4 +32,5 @@ var address = "Jln. Malioboro, Yogjakarta";
 var hobby = "gaming";
 
 var fullSentence = processSentence(name,age,address,hobby);
-console.log(fullSentence);
+console.log(fullSentence); 
+// Nama saya Agus, umur saya 30 tahun, alamat saya di Jln. Malioboro, Yogjakarta, dan saya punya hobby yaitu gaming!
