@@ -37,7 +37,7 @@ for (var angka=1; angka < 101; angka++){
         console.log(angka, 'GANJIL');
     }
     else{
-        console.log(angka, 'GENAP');
+        console.log('GENAP');
     }
 }
 
