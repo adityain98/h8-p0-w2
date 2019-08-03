@@ -34,7 +34,7 @@ for(var j=20; j>0; j--){
 console.log('Ganjil Genap');
 for (var angka=1; angka < 101; angka++){
     if(angka % 2 == 1){
-        console.log(angka, 'GANJIL');
+        console.log('GANJIL');
     }
     else{
         console.log('GENAP');
