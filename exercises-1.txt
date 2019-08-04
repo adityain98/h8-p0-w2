@@ -2,7 +2,7 @@
 Algoritma:
     1. Simpan m dengan nilai tertentu
     2. Simpan a dengan nilai tertentu
-    3. Simpan ΣF dengan nilai m kali any
+    3. Simpan ΣF dengan nilai m kali a
     4. Tampilkan ΣF
 
 Pseudocode:

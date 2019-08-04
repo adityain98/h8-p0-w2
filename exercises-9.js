@@ -9,8 +9,8 @@ console.log(shoutOut())
 
 //Tugas 2
 
-function calculateMultiply(a,b){
-    c = a * b;
+function calculateMultiply(angka1,angka2){
+    c = angka1 * angka2;
     return c;
 }
 var num1 = 5;
@@ -21,8 +21,8 @@ console.log(hasilPerkalian);
 
 //Tugas 3
 
-function processSentence(e,f,g,h){
-    kata ='Nama saya '+ e +', umur saya ' + f +' tahun, alamat saya di ' + g +', dan saya punya hobby yaitu ' + h +'!';
+function processSentence(nama,umur,alamat,hobi){
+    kata ='Nama saya '+ nama +', umur saya ' + umur +' tahun, alamat saya di ' + alamat +', dan saya punya hobby yaitu ' + hobi +'!';
     return kata;
 }
 
