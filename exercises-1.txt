@@ -28,9 +28,9 @@ Algoritma:
 
 Pseudocode:
 STORE "tahun" with anny value
-IF "tahun" % "4" = "0"
-    IF "tahun" % "100" = "0"
-        IF "tahun" % "400" = "0"
+IF "tahun" modulo "4" equals "0"
+    IF "tahun" modulo "100" equals "0"
+        IF "tahun" modulo "400" equals "0"
             DISPLAY "Tahun Kabisat"
         ELSE
             DISPLAY "Bukan Tahun Kabisat"
@@ -42,44 +42,45 @@ ELSE
 3. Laundry Day
 Algoritma:
     1.  Simpan pakaian dengan nilai 20
-    2.  Simpan mesin dengan nilai 0
-    3.  Jika mesin kurang dari pakaian
-    4.      mesin ditambah 1
-    5.      kembali ke line 3
-    6.  Lainnya jika mesin samadengan pakaian
-    7.      hidupkan mesin cuci
-    8.  Hidupkan mesin cuci
+    2.  Masukkan looping for
+    4.  Dengan initialCondition mesin = 0
+    5.  Dengan testExpression mesin<pakaian
+    6.  Dengan iterativeStatement mesin++
+    7.  Lakukan hidupkan mesin
 
 Pseudocode:
 STORE "pakaian" with value "20"
-STORE "mesin" with value "0"
-IF "mesin" < "pakaian"
-    ADD "mesin" with "1"
-    BACK TO Line 3
-ELSE   
-    DO "hidupkan mesin cuci"
-DO "hidupkan mesin cuci"
+
+LOOP fOR
+INITIALCONDITION 'mesin' equals to 0
+TESTEXPRESSION 'mesin' less than 'pakaian'
+ITERATIVESTATEMENT 'mesin' plus '1'
+DO Turn On 'mesin'
 
 4. Periksa Kuku
 Algoritma:
-    1.  Simpan array siswa dengan 1 hingga 40 dengan nilai 1 atau 0
-    2.  Simpan kukupanjang dengan nilai 1
-    3.  Simpan i dengan nilai 1
-    4.  Jika panjang siswa i mempunyai nilai samadengan kukupanjang
-    5.      Tampilkan "Dihukum"
-    6.      i tambah 1
-    7.  Lainnya jika panjang siswa i mempunyai nilai tidak samadengan kukupanjang
-    8.      Tampilkan "Dipuji"
-    9.      i tambah 1
+    1. Simpan array siswa berisikan nama 40 siswa
+    2. Simpan array kukusiswa berisikan kondisi kuku siswa
+    2. Simpan kukupanjang dengan nilai 1
+    3. Masukkan looping for
+    4. Dengan initialCondition i = 0
+    5. Dengan testExpression i<siswa.length
+    6. Dengan iterativeStatement i++
+    7. Statement 1 jika kukusiswa[i] == kukupanjang
+    8. Tampilkan Dihukum
+    9. Statement 2 jika kukusiswa[i] != kukupanjang
+    10. Tampilkan dipuji
 
 Pseudocode:
-STORE ARRAY "siswa" from "1" to "40" with value 1 or 0
+STORE ARRAY "siswa" from "siswa 1" to "siswa 40"
+STORE ARRAY "kukusiswa" with siswa's nail condition
 STORE "kukupanjang" with value "1"
-STORE "i" with value "1"
 
-IF "siswa length i" = "kukupanjang"
-    DISPLAY "Dihukum"
-    ADD "i" with "1"
-ELSE IF "siswa length i" != "kukupanjang"
-    DISPLAY "Dipuji"
-    ADD "i" with "1"
+LOOP fOR
+INITIALCONDITION 'i' equals to 0
+TESTEXPRESSION 'i' less than 'siswa.length'
+ITERATIVESTATEMENT 'i' plus '1'
+STATEMENT1 IF 'kukusiswa' equals to 'kukupanjang'
+DISPLAY 'siswa[i] dihukum'
+STATEMENT2 ELSE IF 'i' not equals to 'kukupanjang'
+DISPLAY 'siswa[i] 'dipuji'
